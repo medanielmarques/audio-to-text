@@ -1,0 +1,20 @@
+{
+  "name": "@att/eslint-config",
+  "version": "0.0.0",
+  "private": true,
+  "files": [
+    "node.js",
+    "react.js"
+  ],
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.2.2",
+    "eslint-plugin-simple-import-sort": "^12.1.0",
+    "@att/prettier": "workspace:*"
+  },
+  "prettier": "@att/prettier",
+  "eslintConfig": {
+    "extends": [
+      "./react.js"
+    ]
+  }
+}
